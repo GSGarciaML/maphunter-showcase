@@ -1,10 +1,11 @@
 # maphunter-showcase
+
 **Detection engine that locates calibration maps inside undocumented ECU firmware** — the RPM × fuel-quantity tables that govern a diesel engine — with no symbol files and no map. Just bytes.
 Scope: Bosch **EDC15 / EDC16**.
 
 ![MapHunter — locating calibration maps in raw ECU firmware](docs/preview.png)
 
-> ### 📄 Read the full case study → [**interactive dossier**](https://claude.ai/code/artifact/3c88b8be-8e40-4b40-9bd5-4290e7e114ec)
+> ### 📄 Read the full case study → [**interactive dossier**](https://gsgarciaml.github.io/maphunter-showcase/)
 
 ---
 
@@ -20,16 +21,15 @@ And it has no oracle: in production there is no definition file to check against
 
 ## What it produces
 
-Real calibration maps recovered from production ECU firmware and rendered as heatmaps — a human-readable surface pulled straight out of raw bytes:
+Real calibration maps recovered from production ECU firmware and rendered as 3D surfaces — a human-readable topography pulled straight out of raw bytes:
 
 <table align="center">
   <tr>
-    <td><img src="docs/ej-mapa-1.png" width="100%" alt="Recovered calibration map" /></td>
-    <td><img src="docs/ej-mapa-2.png" width="100%" alt="Recovered calibration map" /></td>
+    <td><img src="docs/ej-mapa-1.png" width="100%" alt="Recovered calibration map — 3D surface and 2D profiles" /></td>
+    <td><img src="docs/ej-mapa-2.png" width="100%" alt="Recovered calibration map — 3D surface and 2D profiles" /></td>
   </tr>
   <tr>
-    <td><img src="docs/ej-mapa-3.png" width="100%" alt="Recovered calibration map" /></td>
-    <td><img src="docs/ej-mapa-4.png" width="100%" alt="Recovered calibration map" /></td>
+    <td colspan="2" align="center"><img src="docs/ej-mapa-3.png" width="50%" alt="Recovered calibration map — 3D surface and 2D profiles" /></td>
   </tr>
 </table>
 
@@ -51,11 +51,17 @@ This is a **measurement-driven** reverse-engineering project. The part I'm proud
 | ECUs analysed | **6** |
 | Hypotheses refuted — and archived | **21** |
 
-Per-ECU breakdown, methodology and one worked finding are in the **[case study](https://claude.ai/code/artifact/3c88b8be-8e40-4b40-9bd5-4290e7e114ec)**.
+Per-ECU breakdown, methodology and one worked finding are in the **[case study](https://gsgarciaml.github.io/maphunter-showcase/)**.
 
 ## Skills demonstrated
 
 `binary reverse engineering` · `empirical method under uncertainty` · `signal design` · `vectorised numerics (Python / NumPy)` · `corpus statistics on real automotive firmware`
+
+---
+
+> **The engine's source code is private.** This repository documents the problem, the method and the results — what the work demonstrates — without exposing the implementation.
+
+**© 2026 Gonzalo Salceda García. All rights reserved.** Portfolio repository; source code private.
 
 ---
 
