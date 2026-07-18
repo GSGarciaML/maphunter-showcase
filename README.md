@@ -1,10 +1,8 @@
 # maphunter-showcase
-Detection engine that locates calibration maps inside undocumented ECU firmware (Bosch EDC15/EDC16). Measurement-driven binary reverse engineering. Case study — source private.
-
-# MapHunter
-
 **Detection engine that locates calibration maps inside undocumented ECU firmware** — the RPM × fuel-quantity tables that govern a diesel engine — with no symbol files and no map. Just bytes.
 Scope: Bosch **EDC15 / EDC16**.
+
+![MapHunter — case study](docs/preview.png)
 
 > ### 📄 Read the full case study → [**interactive dossier**](https://claude.ai/code/artifact/3c88b8be-8e40-4b40-9bd5-4290e7e114ec)
 
@@ -19,6 +17,16 @@ A calibration map is a grid of integers buried in hundreds of kilobytes of an EC
 - **What** it represents — the function
 
 And it has no oracle: in production there is no definition file to check against. Miss any of the three and a readable table turns into diagonal noise.
+
+## What it produces
+
+Real calibration maps recovered from production ECU firmware and rendered as heatmaps — a human-readable surface pulled straight out of raw bytes:
+
+<p align="center">
+  <img src="docs/map-01.png" width="31%" alt="Recovered calibration map" />
+  <img src="docs/map-02.png" width="31%" alt="Recovered calibration map" />
+  <img src="docs/overview.png" width="31%" alt="Maps located across a full binary" />
+</p>
 
 ## What this repository shows
 
@@ -48,4 +56,4 @@ Per-ECU breakdown, methodology and one worked finding are in the **[case study](
 
 > **The engine's source code is private.** This repository documents the problem, the method and the results — what the work demonstrates — without exposing the implementation.
 
-**© 2026 [Gonzalo Salceda García]. All rights reserved.** Portfolio repository; source code private.
+**© 2026 Gonzalo Salceda García. All rights reserved.** Portfolio repository; source code private.
