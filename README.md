@@ -5,8 +5,7 @@ Scope: Bosch **EDC15 / EDC16**.
 
 
 
-> ### 📄 Read the full case study → [**interactive dossier**]([https://gsgarciaml.github.io/maphunter-showcase/](https://claude.ai/code/artifact/a93d27ec-0840-47c1-a038-d9632b35ff0a))
-
+> ### 📄 Read the full case study → https://claude.ai/code/artifact/a93d27ec-0840-47c1-a038-d9632b35ff0a
 ---
 
 ## The problem
