@@ -5,7 +5,7 @@ Scope: Bosch **EDC15 / EDC16**.
 
 
 
-> ### 📄 Read the full case study → https://claude.ai/code/artifact/a93d27ec-0840-47c1-a038-d9632b35ff0a
+> ### 📄 Read the full case study → https://claude.ai/code/artifact/3c88b8be-8e40-4b40-9bd5-4290e7e114ec?org=f6be0084-b7a0-4fcb-8b87-f3cdb5cc9277
 ---
 
 ## The problem
