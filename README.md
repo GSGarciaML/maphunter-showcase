@@ -3,7 +3,7 @@
 **Detection engine that locates calibration maps inside undocumented ECU firmware** — the RPM × fuel-quantity tables that govern a diesel engine — with no symbol files and no map. Just bytes.
 Scope: Bosch **EDC15 / EDC16**.
 
-![MapHunter — locating calibration maps in raw ECU firmware](docs/preview.png)
+
 
 > ### 📄 Read the full case study → [**interactive dossier**](https://gsgarciaml.github.io/maphunter-showcase/)
 
