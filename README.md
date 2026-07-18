@@ -21,17 +21,8 @@ And it has no oracle: in production there is no definition file to check against
 
 ## What it produces
 
-Real calibration maps recovered from production ECU firmware and rendered as 3D surfaces — a human-readable topography pulled straight out of raw bytes:
+Real calibration maps recovered from production ECU firmware and rendered as 3D surfaces — a human-readable topography pulled straight out of raw bytes
 
-<table align="center">
-  <tr>
-    <td><img src="docs/ej-mapa-1.png" width="100%" alt="Recovered calibration map — 3D surface and 2D profiles" /></td>
-    <td><img src="docs/ej-mapa-2.png" width="100%" alt="Recovered calibration map — 3D surface and 2D profiles" /></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><img src="docs/ej-mapa-3.png" width="50%" alt="Recovered calibration map — 3D surface and 2D profiles" /></td>
-  </tr>
-</table>
 
 ## What this repository shows
 
