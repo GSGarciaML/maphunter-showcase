@@ -54,10 +54,5 @@ Per-ECU breakdown, methodology and one worked finding are in the **[case study](
 
 **© 2026 Gonzalo Salceda García. All rights reserved.** Portfolio repository; source code private.
 
----
-
-> **The engine's source code is private.** This repository documents the problem, the method and the results — what the work demonstrates — without exposing the implementation.
-
-**© 2026 Gonzalo Salceda García. All rights reserved.** Portfolio repository; source code private.
 
 
